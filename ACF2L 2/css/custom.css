@@ -21,11 +21,12 @@ h5,
 h6{
 	margin-top:0;
 	font-weight: 700;
+	color: rgb(79, 154, 239);
 	}    
 h3  {
 	margin-top:0;
 	font-weight: 700;
-	color: red;
+	color: rgb(79, 154, 239);
 }
 
 img{
