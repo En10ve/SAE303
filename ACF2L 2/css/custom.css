@@ -184,7 +184,7 @@ header .navbar-collapse.collapse{
 .navbar .navbar-nav .nav-link{
 	padding: 4px 10px;
 	font-size: 14px;
-	color: #ff5722;
+	color: #000000;
 	text-transform: uppercase;
 	border-radius: 4px;
 	letter-spacing: 0.02em;
@@ -192,13 +192,13 @@ header .navbar-collapse.collapse{
 }
 
 .navbar .navbar-nav .nav-link.active{
-	background: #1976d2;
+	background: #76a7d8;
 	color: #fff;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:focus{
-	color: #1976d2;
+	color: #76a7d8;
 }
 
 .navbar .navbar-nav .nav-link.active:hover,
