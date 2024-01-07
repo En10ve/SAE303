@@ -478,7 +478,7 @@ header .navbar-collapse.collapse{
 	position: absolute;
 	left: 50%;
 	bottom: -2px;
-	background: #ff5722;
+	background: #65a4ce;
 	z-index: 1;
 }
 
@@ -486,7 +486,6 @@ header .navbar-collapse.collapse{
 	font-size: 36px;
 	margin: 0;
 	font-weight: normal;
-	font-family: 'Bubblegum Sans', cursive;
 }
 
 .section-title p{
@@ -515,18 +514,18 @@ header .navbar-collapse.collapse{
 }
 
 .icon-blue{
-	background: #1976d2;
-	box-shadow: 0 0 0 7px rgba(25,118,209,0.5);
+	background: #69b1ec;
+	box-shadow: 0 0 0 7px rgba(81, 186, 246, 0.5);
 }
 
 .icon-orange{
-	background: #ff5722;
-	box-shadow: 0 0 0 7px rgba(255,87,34,0.5);
+	background: #69b1ec;
+	box-shadow: 0 0 0 7px rgba(81, 186, 246, 0.5);
 }
 
 .icon-green{
-	background: #a4cf27;
-	box-shadow: 0 0 0 7px rgba(164,207,39,0.5);
+	background: #69b1ec;
+	box-shadow: 0 0 0 7px rgba(81, 186, 246, 0.5);
 }
 
 .activities-single h3{
