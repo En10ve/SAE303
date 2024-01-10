@@ -13,7 +13,9 @@
 	<title>ACF2L - Aéroclub de Frotey Les Lures</title>
 	<!-- Google Fonts css-->
 	<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Roboto:300,400,500,700,900" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<!-- Bootstrap css -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome icon css-->
 	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
@@ -37,149 +39,138 @@
 	<link href="css/monstyle.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="71">
-	<!-- Tob Bar Section Start -->
-	<div class="top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="header-social-link">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-					</div>
-				</div>
-				
-				<div class="col-md-8 text-right">
-					<div class="school-info">
-						<ul>
-							<li><a href="#"><i class="fa fa-envelope"></i> Email : acf2l@gmail.com</a></li>
-							<li><a href="#"><i class="fa fa-phone"></i> Tel : +33 01 60 56 60 60</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Tob Bar Section End -->
 	
 	<!-- Header Section Start -->
-	<header class="header">
+	<header class="header" style="padding-bottom: 10%;">
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-			<div class="container-fluid">
-			  <a class="navbar-brand" href="#"><img width="100" src="images/ACF2L-removebg-preview.png"></a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <h1>ACF2L Aréoclub</h1>
-			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Accueil</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Nos Activités</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Catégories d'ULM</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Moyens Pédagogiques</a>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					  A Propos
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#">L'Equipe</a></li>
-					  <li><a class="dropdown-item" href="#">Evenements</a></li>
-					  <li><a class="dropdown-item" href="#">Review</a></li>
-					  <li><a class="dropdown-item" href="#">Galerie</a></li>
-					</ul>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					  </li>
-				  </li>
-				</ul>
-			  </div>
-			</div>
-		  </nav>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img width="100" src="images/ACF2L-removebg-preview.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1>ACF2L Aréoclub</h1>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#activities">Nos Activités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Catégories d'ULM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">Moyens Pédagogiques</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        A propos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#teachers">L'Equipe</a></li>
+                        <li><a class="dropdown-item" href="#events">Evenements</a></li>
+                        <li><a class="dropdown-item" href="#review">Review</a></li>
+                        <li><a class="dropdown-item" href="#gallery">Galerie</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							  </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+	<div id="sky" >
+			<div id="cloud1" class="cloud"></div>
+			<div id="cloud2" class="cloud"></div>
+			<div id="cloud3" class="cloud"></div>
+			<div id="cloud4" class="cloud"></div>
+			<div id="cloud5" class="cloud"></div>
+			<div id="cloud6" class="cloud"></div>
+			<div id="cloud7" class="cloud"></div>
+			<div id="aeroplane"></div>
+		</div>
 	</header>
 	<!-- Header Section End -->
+
 	
-	<!-- Banner Slider Section starts -->
 	
-		
-	<div class="background">
-			<img src="images/Jodel-1.jpg" class="d-block w-100" alt="...">
-	</div>	 
+	<!-- Banner Slider Section starts --> 
 	<!-- Banner Slider Section ends -->
 	
 	<!-- Activities Section Starts -->
-	<section class="our-activities" id="activities">
+	<section class="our-activities" id="activities" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<!-- Section title start -->
 					<div class="section-title wow fadeInUp">
 						<h2>Nos activités </h2>
-						<p>L’aéro-club est une Association Loi 1901, agréée Jeunesse et Sports , adhérente à la FFULM  ( Fédération Française d’ULM).<br> Association enregistrée n°04674 - - Agrément n° AS70986858
-Le siège social demeure  62, Avenue de la République, 70200 Lure</p><br>
-<h6>l’aéro-club assure la formation de pilotes et d’instructeurs. Et propose également des baptêmes de l’air.</h6>
-<p>Pour cela, il assure les prestations complémentaires suivantes :
-<ul>
-   <li>maintenance des ULM moteur, structure… </li>
-     <li> montage des ULM et de tout instrument de navigation : Compas, radio, transpondeur…</li>
-     <li>un service de restauration rapide.</li>
-    <li>un hébergement en proposant trois studios et six chambres pour les élèves stagiaires.</li>
-   <li>location d’emplacement ULM dans des hangars pour les particuliers. </li>
-   </ul>
-   
 					</div>
-					<!-- Section title end -->
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-4">
-					<!-- Activities Single Start -->
-					<div class="activities-single wow fadeInUp" data-wow-delay="0.3s">
-						<div class="icon-box icon-blue">
-							<i class="flaticon-fork"></i>
-						</div>
-						
-						<h3>Best Quality Food</h3>
-						<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-						<a href="#" class="learn-more">Learn More</a>
-					</div>
-					<!-- Activities Single End -->
-				</div>
-				
-				<div class="col-md-4">
-					<!-- Activities Single Start -->
-					<div class="activities-single wow fadeInUp" data-wow-delay="0.6s">
-						<div class="icon-box icon-orange">
-							<i class="flaticon-clock"></i>
-						</div>
-						
-						<h3>Music Lesson</h3>
-						<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-						<a href="#" class="learn-more">Learn More</a>
-					</div>
-					<!-- Activities Single End -->
-				</div>
-				
-				<div class="col-md-4">
-					<!-- Activities Single Start -->
-					<div class="activities-single wow fadeInUp" data-wow-delay="0.6s">
-						<div class="icon-box icon-green">
-							<i class="flaticon-calendar"></i>
-						</div>
-						
-						<h3>Bus Service</h3>
-						<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
-						<a href="#" class="learn-more">Learn More</a>
-					</div>
+					<table class="table">
+						<tbody>
+							<tr>
+							  <th scope="col" style="border-top-width: 0px;" >
+								  <div class="card" style="width: 18rem; box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);">
+								  <img src="images/course-4.jpg" class="card-img-top" alt="...">
+									  <div class="card-body">
+										  <h5 class="card-title">Maintenance des ULM</h5>
+										  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										  <a href="#" class="btn btn-primary">Plus d'infos</a>
+									  </div>
+								  </div>
+							  </th>
+							<th scope="col" style="border-top-width: 0px;">
+								<div class="card" style="width: 18rem; box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);">
+								<img src="images/cours-5.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Montage des intruments de navigations</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Plus d'infos</a>
+									</div>
+								</div>
+							</th>
+							<th scope="col" style="border-top-width: 0px;">
+								<div class="card" style="width: 18rem; box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);">
+								<img src="images/b.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Services de restauration rapide</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Plus d'infos</a>
+									</div>
+								</div>
+							</th>
+						  </tr>
+						</tbody>
+						</table>
+						<table class="table">
+						<tbody>
+						  <tr>
+							<th scope="col" style="border-top-width: 0px;float: right;margin-left: -54px;margin-right: 70px;;">
+								<div class="card" style="width: 18rem; box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);">
+								<img src="images/course-12.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Hébergements</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Plus d'infos</a>
+									</div>
+								</div>
+							</th>
+							<th scope="col" style="border-top-width: 0px;">
+								<div class="card" style="width: 18rem; box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);">
+								<img src="images/course-1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Locations d'emplacements</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Plus d'infos</a>
+									</div>
+								</div>
+							</th>
+						  </tr>
+						</tbody>
+					  </table>
+					
 					<!-- Activities Single End -->
 				</div>
 			</div>
@@ -724,7 +715,7 @@ Le siège social demeure  62, Avenue de la République, 70200 Lure</p><br>
 				<div class="col-md-12">
 					<!-- Footer logo start -->
 					<div class="footer-logo">
-						<img src="images/logo.png" alt="" />
+						<img width="100" src="images/ACF2L-removebg-preview.png">
 						<p> Aéro-Club de Frotey-les-Lure</p>
 					</div>
 					<!-- Footer logo end -->
@@ -734,6 +725,29 @@ Le siège social demeure  62, Avenue de la République, 70200 Lure</p><br>
 						<p>Copyright &copy; Untitled. All rights reserved. Design By <a href="https://awaikenthemes.com/" target="_blank">Awaiken Theme</a> Images <a href="https://unsplash.com/" target="_blank">Unsplash</a>, <a href="https://pixabay.com/" target="_blank">Pixabay</a>, <a href="http://www.freepik.com" target="_blank">Freepik</a>, Icon <a href="https://www.flaticon.com/" target="_blank">Flaticon</a></p>
 					</div>
 					<!-- Footer Copyright end -->
+				</div>
+			</div>
+		</div>
+		<div class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="header-social-link">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+					
+					<div class="col-md-8 text-right">
+						<div class="school-info">
+							<ul>
+								<li><a href="#"><i class="fa fa-envelope"></i> Email : acf2l@gmail.com</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> Tel : +33 01 60 56 60 60</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
