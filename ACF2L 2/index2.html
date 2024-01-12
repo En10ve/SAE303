@@ -39,6 +39,7 @@
 	<link href="css/monstyle.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="71">
+  <form action="reservation.php" method="post"></form>
 	
 	<!-- Header Section Start -->
 	<header class="header" style="padding-bottom: 10%;">
@@ -113,8 +114,6 @@
                             <input type="date" class="form-control" id="date" required>
                           </div>
 
-
-
                           <div class="mb-3">
                             <label class="font-weight-bold">Type de forfait</label>
                             <div class="form-check">
@@ -141,9 +140,30 @@
                           <button type="submit" class="btn btn-primary">Réserver</button>
                         </form>
                       </div>
+
+                      <br><br><br>
+
+                      <div class="section-title wow fadeInUp">
+                        <h2>Suivez l'état de votre réservation</h2>
+                      </div>
+
+                      <div class="container mt-5">
                     
+                        <form id="reservationForm">
+                          <div class="mb-3">
+                            <label for="nom" class="form-label font-weight-bold">Nom</label>
+                            <input type="text" class="form-control" id="nom" required>
+                          </div>
+                    
+                          <div class="mb-3">
+                            <label for="email" class="form-label font-weight-bold">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                          </div>
 
-
+                      </div>
+                          <button type="submit" class="btn btn-primary">Suivre</button>
+                        </form>
+                      </div>
 
  
  
@@ -175,6 +195,29 @@
                           //}
                         });
                       </script>
+
+
+
+
+                      <script>
+    document.getElementById('suiviReservationForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Récupérer les valeurs du formulaire
+        var nomSuivi = document.getElementById('nomSuivi').value;
+        var emailSuivi = document.getElementById('emailSuivi').value;
+
+        // Faire quelque chose avec les données, par exemple, les afficher dans la console
+        console.log('Nom:', nomSuivi);
+        console.log('Email:', emailSuivi);
+
+        // Ajouter ici la logique pour traiter les données côté serveur
+
+        // Rediriger vers la page de suivi (changez "page-suivi.html" avec le nom de votre page de suivi)
+        window.location.href = "page-suivi.html";
+    });
+</script>
+
 
 
 
