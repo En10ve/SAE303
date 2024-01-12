@@ -44,12 +44,12 @@ a:focus{
 }
 
 ::-moz-selection{
-	background: #ff5f47;
+	background:rgb(79, 154, 239);
 	color: #fff;
 }
 
 ::selection{
-	background: #ff5f47;
+	background: rgb(79, 154, 239);
 	color: #fff;
 }
 
@@ -543,9 +543,9 @@ header .navbar-collapse.collapse{
 
 .activities-single a.learn-more{
 	display: inline-block;
-	color: #ff5722;
+	color:rgb(79, 154, 239);
 	font-weight: 600;
-	border-bottom: 1px solid #ff5722;
+	border-bottom: 1px solid rgb(79, 154, 239);
 }
 
 .activities-single a.learn-more:after{
@@ -592,13 +592,12 @@ header .navbar-collapse.collapse{
 	font-weight: 500;
 	color: #fff;
 	display: inline-block;
-	background: #ff5722;
+	background: rgb(79, 154, 239);
 	padding: 9px 30px;
 	position: relative;
 }
 
 .course-body h3:after{
-	content: '';
 	width: 40px;
 	position: absolute;
 	top: 0;
@@ -643,15 +642,15 @@ header .navbar-collapse.collapse{
 }
 
 .course-orange h3:after{
-	background: #ff5722;	
+	background: rgb(79, 154, 239);	
 }
 
 .course-orange .course-footer a{
-	background: #ff5722;
+	background: rgb(79, 154, 239);
 }
 
 .course-orange .course-footer span{
-	color: #ff5722;
+	color:rgb(79, 154, 239);
 }
 
 .course-blue h3{
@@ -927,16 +926,16 @@ header .navbar-collapse.collapse{
 }
 
 .event-orange .date{
-	background: #ff5722;
+	background:  rgb(79, 154, 239);
 }
 
 .event-orange .event-body h3{
-	color: #ff5722;
+	color: rgb(79, 154, 239);
 }
 
 .event-orange .event-body p.location:before,
 .event-orange .event-body p.time:before{
-	color: #ff5722;
+	color: rgb(79, 154, 239);
 }
 
 .event-blue .date{
@@ -953,16 +952,16 @@ header .navbar-collapse.collapse{
 }
 
 .event-green .date{
-	background: #a4cf27;
+	background: rgb(79, 154, 239);
 }
 
 .event-green .event-body h3{
-	color: #a4cf27;
+	color:  rgb(79, 154, 239);
 }
 
 .event-green .event-body p.location:before,
 .event-green .event-body p.time:before{
-	color: #a4cf27;
+	color:  rgb(79, 154, 239);
 }
 
 .event-pagination{
@@ -974,7 +973,7 @@ header .navbar-collapse.collapse{
 	width: 14px;
 	height: 14px;
 	opacity: 1;
-	background: #ff5722;
+	background: rgb(79, 154, 239);
 }
 
 .event-pagination .swiper-pagination-bullet-active{
@@ -1130,6 +1129,8 @@ header .navbar-collapse.collapse{
 .photo-green:after{
 	background: #a4cf27;
 }
+
+
 
 /*************************************/
 /*****     Contact us area css   *****/
